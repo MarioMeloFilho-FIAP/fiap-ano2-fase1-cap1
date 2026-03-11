@@ -1,7 +1,5 @@
 project:
   name: cardioia-fase1
-  author: OpenAI
-  version: 1.0.0
 
 texts:
   sources:
@@ -18,7 +16,7 @@ texts:
       category: "saude_publica_prevencao"
 
 paths:
-  output_root: "output"
-  text_dir: "output/texts"
-  download_dir: "downloads/texts"
-  state_db: "state/manifest.db"
+  output_root: "data"
+  text_dir: "data/texts"
+  download_dir: "data/downloads/texts"
+  state_db: "data/state/texts_manifest.db"

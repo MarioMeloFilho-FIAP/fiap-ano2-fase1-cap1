@@ -1,7 +1,5 @@
 project:
   name: cardioia-fase1
-  author: OpenAI
-  version: 1.0.0
 
 ptbxl:
   base_url: "https://physionet.org/files/ptb-xl/1.0.3"
@@ -14,8 +12,8 @@ ptbxl:
   waveform_resolution: "lr"   # lr -> records100 | hr -> records500
 
 paths:
-  output_root: "output"
-  numeric_dir: "output/numeric"
-  image_dir: "output/images/ptbxl"
-  download_dir: "downloads/ptbxl"
-  state_db: "state/manifest.db"
+  output_root: "data"
+  numeric_dir: "data/numeric"
+  image_dir: "data/images/ptbxl"
+  download_dir: "data/downloads/ptbxl"
+  state_db: "data/state/manifest.db"
