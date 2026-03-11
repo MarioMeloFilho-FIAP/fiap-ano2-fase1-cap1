@@ -1,6 +1,21 @@
-# CardioIA - Fase 1 - Cap1: Batimentos de Dados
+# FIAP - Faculdade de Informática e Administração Paulista
 
-## Visão geral
+<p align="center">
+<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+</p>
+
+<br>
+
+# CardioIA - Fase 1 - Cap1:  Dados Cardiológicos
+
+## 👨‍🎓 Integrantes: 
+- <a href="https://www.linkedin.com/in/mariomelofilho/">Mário Melo Filho</a> 
+- <a href="stephaniedossantosforever@gmail.com">Stephanie dos Santos</a>
+
+
+# CardioIA - Fase 1 - Cap1:  Dados Cardiológicos
+
+## Descrição
 Este repositório reúne os dados iniciais do projeto **CardioIA** para apoio às próximas fases de análise, modelagem e experimentação em Inteligência Artificial aplicada à saúde cardiovascular.
 
 A proposta desta fase é organizar três tipos de dados:
