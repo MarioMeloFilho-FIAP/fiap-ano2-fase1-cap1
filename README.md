@@ -107,7 +107,6 @@ As fontes utilizadas foram:
 Os textos utilizados são **reais**, públicos e provenientes de fontes confiáveis da área de saúde, incluindo SciELO e BVS/Ministério da Saúde.
 
 ### Arquivos gerados no projeto
-Os textos baixados e convertidos ficam armazenados em: [Dados Textuais](https://www.dropbox.com/scl/fo/873q0pnen8w2n7r7ovmid/AJ4SONdWa1oBqe62IVYO4Ak?rlkey=u0nlfqrm5hu4emrgq94166o0x&st=3k70d3xl&dl=0)
 
 - `output/texts/estatistica_cardiovascular_brasil_2023.txt`
 - `output/texts/insuficiencia_cardiaca.txt`
