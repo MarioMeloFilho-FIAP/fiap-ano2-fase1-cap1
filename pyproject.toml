@@ -9,7 +9,8 @@ description = "Projeto Python para coleta de dados numéricos, textuais e visuai
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
-  { name = "OpenAI" }
+  { name = "Mario Melo Filho" },
+  { name = "ChatGPT" }
 ]
 dependencies = [
   "PyYAML>=6.0",
