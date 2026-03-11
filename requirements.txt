@@ -1,0 +1,8 @@
+PyYAML>=6.0
+requests>=2.31.0
+pandas>=2.2.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+wfdb>=4.1.2
+trafilatura>=1.8.0
+pypdf>=4.2.0

@@ -1,0 +1,24 @@
+project:
+  name: cardioia-fase1
+  author: OpenAI
+  version: 1.0.0
+
+texts:
+  sources:
+    - name: "estatistica_cardiovascular_brasil_2023"
+      url: "https://www.scielo.br/j/abc/a/jzFMcdN5y3w6CtjVgdJdSdR/?format=pdf&lang=pt"
+      category: "cardiologia_saude_publica"
+
+    - name: "insuficiencia_cardiaca"
+      url: "https://www.scielo.br/j/abc/a/VCQkdfNs5QNyTYhp8WdnMdN/?lang=pt"
+      category: "cardiologia_clinica"
+
+    - name: "prevencao_clinica_dcv"
+      url: "https://bvsms.saude.gov.br/bvs/publicacoes/abcad14.pdf"
+      category: "saude_publica_prevencao"
+
+paths:
+  output_root: "output"
+  text_dir: "output/texts"
+  download_dir: "downloads/texts"
+  state_db: "state/manifest.db"

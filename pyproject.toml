@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cardioia-fase1"
+version = "1.0.0"
+description = "Projeto Python para coleta de dados numéricos, textuais e visuais para a Fase 1 do CardioIA."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "OpenAI" }
+]
+dependencies = [
+  "PyYAML>=6.0",
+  "requests>=2.31.0",
+  "pandas>=2.2.0",
+  "numpy>=1.26.0",
+  "matplotlib>=3.8.0",
+  "wfdb>=4.1.2",
+  "trafilatura>=1.8.0",
+  "pypdf>=4.2.0"
+]
+
+[project.scripts]
+cardioia = "cardioia.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,21 @@
+project:
+  name: cardioia-fase1
+  author: OpenAI
+  version: 1.0.0
+
+ptbxl:
+  base_url: "https://physionet.org/files/ptb-xl/1.0.3"
+  metadata:
+    ptbxl_database_csv:
+      - "https://physionet.org/files/ptb-xl/1.0.3/ptbxl_database.csv"
+    scp_statements_csv:
+      - "https://physionet.org/files/ptb-xl/1.0.3/scp_statements.csv"
+
+  waveform_resolution: "lr"   # lr -> records100 | hr -> records500
+
+paths:
+  output_root: "output"
+  numeric_dir: "output/numeric"
+  image_dir: "output/images/ptbxl"
+  download_dir: "downloads/ptbxl"
+  state_db: "state/manifest.db"
